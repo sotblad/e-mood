@@ -1,0 +1,16 @@
+.footer {
+    width: 400px;
+    display: flex;
+    flex: 1;
+    height: 20px;
+    padding: 20px;
+  
+  }
+  
+  .footer a {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    font-size: medium;
+    color: #757bc3;
+  }

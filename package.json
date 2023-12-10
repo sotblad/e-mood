@@ -1,0 +1,30 @@
+{
+  "name": "e-mood",
+  "version": "0.0.1",
+  "description": "E-mood - A Next.js Chrome Extension to calculate your e-food.gr expenses in a fun way.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run prep",
+    "prep": "npm run exp && node out.js",
+    "exp": "next build && next export",
+    "run": "next start",
+    "dev": "CHOKIDAR_USEPOLLING=true next dev"
+  },
+  "keywords": [],
+  "author": "sotblad <sotiris.p@icloud.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@types/chrome": "^0.0.254",
+    "glob": "^10.2.3",
+    "next": "^13.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-loading": "^2.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6"
+  }
+}
